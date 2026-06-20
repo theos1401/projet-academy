@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="semanstyle.css" />
+    <title>academy</title>
+  </head>
+  <body>
+    <header>
+      <h1>patience theo okania</h1>
+      <p>etudiant en developpement web full stack</p>
+    </header>
+
+    <nav aria-label="menu">
+      <ul>
+        <li><a href="#bio">bio</a></li>
+        <li><a href="#competence">competence</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="bio" aria-label="bio">
+        <h2 id="bio-heading">bio</h2>
+        <p>
+          je suis un etudiant en developpement web full stack, passionné par la
+          technologie et l'innovation. J'aime apprendre de nouvelles compétences
+          et relever des défis techniques.
+        </p>
+        <article>
+          <h3>présentation</h3>
+          <p>
+            J'ai suivi une formation en développement web full stack, où j'ai
+            acquis des compétence en html basique et en css
+          </p>
+          <p>mon objectif est de devenir un developpeur web competebt</p>
+        </article>
+      </section>
+      <section id="competence" aria-label="competence">
+        <h2 id="competence-heading">competence</h2>
+        <article>
+          <h3>compétences acquises</h3>
+          <ul>
+            <li>balise html</li>
+            <li>structure html</li>
+            <li>formulaire</li>
+            <li>tableaut</li>
+            <li>liste</li>
+          </ul>
+        </article>
+      </section>
+      <section id="contact" aria-label="contact">
+        <h2 id="contact-heading">contact</h2>
+        <p>Pour me contacter, patiencetheoo@gmail.com téléphone.</p>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>me contacter</legend>
+            <p>
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" required />
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </p>
+            <p>
+              <label for="sujet">Sujet :</label>
+              <select id="sujet" name="sujet" required>
+                <option value="">--choisir</option>
+                <option value="cours">question sur le cours</option>
+              </select>
+            </p>
+            <p>
+              <label for="message">Message :</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </p>
+            <button type="submit">Envoyer</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <aside aria-labelledby="titre-aside">
+      <h2 id="titre-aside">informations supplémentaires</h2>
+      <h3>Détails</h3>
+      <dl>
+        <dt>ville :</dt>
+        <dd>Brazzaville</dd>
+        <dt>Statut</dt>
+        <dd>étudiant</dd>
+        <dt>validation</dt>
+        <dd><time datetime="2024-06-01">1 juin 2024</time></dd>
+      </dl>
+    </aside>
+    <footer>
+      <p><small>&copy; 2024 Patience Theo Okania code validé W3C</small></p>
+      <adress> contact auteur : patiencetheoo@gmail.com</adress>
+    </footer>
+  </body>
+</html>
